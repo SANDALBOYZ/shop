@@ -1,5 +1,7 @@
 # shop
 
+[![CircleCI](https://circleci.com/gh/SANDALBOYZ/shop/tree/master.svg?style=svg)](https://circleci.com/gh/SANDALBOYZ/shop/tree/master)
+
 SANDALBOYZ shop!
 
 ## Technology 🍔
