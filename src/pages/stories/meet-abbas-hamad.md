@@ -87,7 +87,7 @@ sections:
   - caption: ''
     imageType: fullWidth
     images:
-      - /assets/bbc_2.jpg
+      - /assets/sb_aw18_8.jpg
     type: image
   - body: >-
       Bacon ipsum dolor amet burgdoggen jowl capicola boudin, venison ribeye
