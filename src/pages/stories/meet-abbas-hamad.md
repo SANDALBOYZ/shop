@@ -2,8 +2,9 @@
 templateKey: story
 title: Meet Abbas Hamad
 authors:
-  - INTERVIEW Ryan Chang
-  - PHOTOS Ryan Chang
+  - 'INTERVIEW, Ryan Chang'
+  - 'PHOTOS, Ryan Chang'
+  - 'PHOTOS, Neal Donnelly'
 date: 2019-11-02T18:00:26.297Z
 hero: /assets/1722aa019.jpg
 lede: >-
@@ -107,6 +108,11 @@ sections:
     imageType: twoThirds
     images:
       - /assets/1722aa016.jpg
+    type: image
+  - imageType: fiftyFifty
+    images:
+      - /assets/2217f793-5aff-446c-bbdb-a7a3b5a5555d.jpg
+      - /assets/1722aa019.jpg
     type: image
 ---
 

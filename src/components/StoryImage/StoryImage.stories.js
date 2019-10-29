@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FullWidthImage, SplitImage, TwoThirdsImage } from '.';
+import { FullWidthImage, SplitImage, TwoThirdsImage, FiftyFiftyImage } from '.';
 
 export default { title: 'Story Image' };
 
@@ -14,3 +14,5 @@ export const splitImage = () => (
 );
 
 export const twoThirdsImage = () => <TwoThirdsImage />;
+
+export const fiftyFiftyImage = () => <FiftyFiftyImage images={['image_1.jpeg', 'image_2.jpeg']} />;

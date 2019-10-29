@@ -5,7 +5,7 @@ import get from 'lodash/get';
 import Head from '@utils/seo';
 import { AbsoluteImg } from '@utils/styles';
 import { H100, H200 } from '@utils/type';
-import { FullWidthImage, SplitImage, TwoThirdsImage } from '@components/StoryImage';
+import { FullWidthImage, SplitImage, TwoThirdsImage, FiftyFiftyImage } from '@components/StoryImage';
 import * as styled from './styles';
 
 class Story extends Component {
@@ -21,6 +21,8 @@ class Story extends Component {
           return <SplitImage caption={caption} images={images} />;
         case 'twoThirds':
           return <TwoThirdsImage image={images[0]} />;
+        case 'fiftyFifty':
+          return <FiftyFiftyImage images={images} />;
 
         default: // no default
       }
