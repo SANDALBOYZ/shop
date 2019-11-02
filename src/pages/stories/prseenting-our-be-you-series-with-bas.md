@@ -18,10 +18,31 @@ sections:
       apparent that this unique upbringing has had a positive effect on his
       identity.
     type: text
-  - imageType: split
+  - caption: The design process with Bas
+    imageType: split
     images:
       - /assets/lw5a2059.jpg
       - /assets/lw5a2053.jpg
     type: image
+  - body: >-
+
+
+      In 2014, Bas dropped his debut studio album with Dreamville titled Last
+      Winter executively produced by J. Cole. In 2016, he followed up with
+      critically acclaimed Too High To Riot on the same imprint. The sophomore
+      album’s title and content are indicative of the warm yet cool and
+      confident demeanor that Bas exudes. Bas possesses eloquent lyricism with a
+      laidback flow. His songs, often drawing from multicultural inspirations
+      such as afro beat and French house, stand out in a landscape of hip-hop
+      that is currently dominated by Atlanta-style rap laden with money,
+      misogyny, and flaunting consumerism. It is the above combination of good
+      energy that drew us to Bas and led to a collaboration that made sense.
+
+
+      > His songs, often drawing from multicultural inspirations such as afro
+      beat and French house, stand out in a landscape of hip-hop that is
+      currently dominated by Atlanta-style rap laden with money, misogyny, and
+      flaunting consumerism.
+    type: text
 ---
 
