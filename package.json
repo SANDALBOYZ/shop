@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "gatsby build",
+    "clean": "rimraf .cache public",
     "dev": "gatsby develop",
     "format": "prettier-standard --fix",
     "lint": "standard --verbose",
@@ -71,7 +72,8 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.1.2",
-    "reset-css": "^4.0.1"
+    "reset-css": "^4.0.1",
+    "rimraf": "^3.0.0"
   },
   "eslintConfig": {
     "extends": [

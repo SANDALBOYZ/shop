@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 
 import colors from '@utils/colors';
 import space, { H_PADDING_MOBILE } from '@utils/space';
-import { AbsoluteImg, mq } from '@utils/styles';
+import { AbsoluteImg, Img, mq } from '@utils/styles';
 import { H400 } from '@utils/type';
 
 const FullWidthImageWrapper = styled.div`
@@ -126,4 +126,40 @@ export const TwoThirdsImage = ({ image }) => (
       )}
     </TwoThirdsBackground>
   </TwoThirdsWrapper>
+);
+
+const FiftyFiftyImageWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: ${space[7]} 0;
+  flex-direction: row;
+
+  ${mq.gtlg} {
+    margin: ${space[9]} ${space[4]};
+  }
+`;
+
+const FiftyFiftyImageOne = styled.div`
+  background-color: ${colors.N100};
+  width: 100%;
+  width: 50%;
+  margin-right: ${space[2]};
+`;
+
+const FiftyFiftyImageTwo = styled.div`
+  background-color: ${colors.N100};
+  width: 100%;
+  width: 50%;
+  margin-left: ${space[2]};
+`;
+
+export const FiftyFiftyImage = ({ caption, images }) => (
+  <FiftyFiftyImageWrapper>
+    <FiftyFiftyImageOne>
+      <Img fluid={images[0]} />
+    </FiftyFiftyImageOne>
+    <FiftyFiftyImageTwo>
+      <Img fluid={images[1]} />
+    </FiftyFiftyImageTwo>
+  </FiftyFiftyImageWrapper>
 );
